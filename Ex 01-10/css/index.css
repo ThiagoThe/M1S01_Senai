@@ -1,3 +1,39 @@
+body {
+  background-color: yellow;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#logo-nav {
+  width: 30px;
+  padding-left: 30px;
+}
+
+.titulo {
+  padding-top: 50px;
+}
+
 h1 {
   font-family: verdana;
   font-size: 20px;
@@ -5,10 +41,6 @@ h1 {
   text-align: center;
   background-image: url("https://static.todamateria.com.br/upload/pi/ng/pinguim01-cke.jpg");
   background-repeat: no-repeat;
-}
-
-body {
-  background-color: yellow;
 }
 
 p {
@@ -20,7 +52,7 @@ p {
   width: 25px;
 }
 
-a {
+.button {
   padding: 10px;
   border: 2px solid black;
   margin-top: 20px;
